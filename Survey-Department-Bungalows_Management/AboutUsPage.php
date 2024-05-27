@@ -45,6 +45,7 @@
           <div class="nav-links4">
             <h2 class="home4" id="homeText">Home</h2>
             <h2 class="login4" id="loginText">Login</h2>
+            <h2 class="login4" id="aboutUsText">About Us</h2>
           </div>
         </div>
       </header>
