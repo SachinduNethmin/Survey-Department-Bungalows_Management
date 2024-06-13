@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: none;
+    width: 33.3%;
+    margin: 0 auto 16px;
+    padding: 0 8px;
+    text-align: center; /* Center align the content inside the columns */
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the columns in the row */
+}
+
+img {
+    border-radius: 50%; /* Make images round */
+    width: 150px; /* Adjust the size of the images */
+    height: 150px; /* Keep the images square */
+    object-fit: cover; /* Ensure the image covers the round shape */
+    margin-bottom: 16px; /* Space below the image */
+}
+
+.container {
+    text-align: center; /* Center the text inside the container */
+}
+
+.title {
+    color: grey;
+    margin: 0; /* Remove margin to align better with other text */
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
