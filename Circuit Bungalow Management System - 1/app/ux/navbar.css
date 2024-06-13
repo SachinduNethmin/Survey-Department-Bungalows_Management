@@ -1,0 +1,38 @@
+
+.navbar {
+    background-color: grey;
+    height: 100px;
+    padding :100px;
+}
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-logo img {
+    max-height: 65px; 
+    width: auto;
+    position: absolute;
+    right: 80%;
+    transform: translateY(-50%);
+}
+ul {
+    font-family: 'Cardo', serif;
+
+    font-size: 20px;
+}
+.signup-icon {
+    font-size: 1.5rem;
+    color: black;
+}
+.offcanvas-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
